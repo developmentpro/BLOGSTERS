@@ -2,6 +2,40 @@ body{
 	background-color: blueviolet;
 }
 
+@media only screen and (max-width: 990px) {
+  .h {
+    font-size: 40px;
+  }
+}
+
+.head{
+	background-color: white;
+	padding-top: 10%;
+	padding-bottom: 19%;
+}
+
+.hello{
+	font-size: 20px;
+	font-weight: 600;
+	color:grey;
+}
+
+.blog-hd{
+	color:#ECDD25;
+}
+
+.site-info{
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.2;
+	color:grey;
+}
+
+.hd{
+	font-weight: 800;
+	font-size: 100px;
+	font-family: 'Chelsea Market', cursive;
+}
 
 .navbar-nav{
   text-align: center;
@@ -9,6 +43,11 @@ body{
 
 li{
 	list-style-type: none;
+}
+
+.blog-area{
+	margin-top: 30px; 
+	margin-bottom: 30px;
 }
 
 
@@ -64,4 +103,10 @@ li{
 
 ::-webkit-scrollbar { 
 display: none; 
+}
+
+.blog{
+	color:black;
+	background-color: #fff;
+	padding: 5% 5% 5% 5%; 
 }
